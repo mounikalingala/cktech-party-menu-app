@@ -25,12 +25,12 @@ const Filters = ({ activeMeal, setActiveMeal, search, setSearch, countsByMeal })
             </div>
 
             {/* Tabs */}
-            <div className="flex gap-2 items-center overflow-x-auto mb-8 mt-6">
+            <div className="flex justify-center gap-[8px] items-center overflow-x-auto mb-8 mt-6">
                 {MEAL_ORDER.map(m => (
                     <button
                         key={m}
                         onClick={() => setActiveMeal(m)}
-                        className={`px-2 py-2 rounded-lg border-[#ADADAD] ${m === activeMeal ? 'bg-orange-500 border-0 text-white' : 'bg-white text-gray-700 border-1'}`}
+                        className={`px-[5px] py-2 rounded-lg border-[#ADADAD] ${m === activeMeal ? 'bg-orange-500 border-0 text-white' : 'bg-white text-gray-700 border-1'}`}
                     >
                         <div className="flex items-center">
                             <span className="font-semibold text-sm ">{m.charAt(0).toUpperCase() + m.slice(1).toLowerCase()}</span>
