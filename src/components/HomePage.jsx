@@ -58,15 +58,15 @@ export default function HomePage() {
             {/* Search and filter tabs */}
             <Filters activeMeal={activeMeal} setActiveMeal={setActiveMeal} search={search} setSearch={setSearch} countsByMeal={countsByMeal} setNonVegFilter />
             {/* tab count veg nonveg switch */}
-            <div className='flex justify-between'>
-                <div className='font-semibold'>
+            <div className='flex items-center justify-between mb-6 pl-1'>
+                <div className='font-semibold font-sans text-md'>
                     {activeMeal
                         ? `${activeMeal.charAt(0).toUpperCase() + activeMeal.slice(1).toLowerCase()}s Selected (${countsByMeal[activeMeal] || 0})`
                         : "No meal selected"}
 
                 </div>
 
-                <div className="flex gap-6 mb-6">
+                <div className="flex gap-2 ">
                     {/* Veg Switch */}
                     <div className="flex items-center gap-2">
                         <Toggle
