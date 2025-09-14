@@ -7,7 +7,7 @@ Users can search, filter by Veg/Non-Veg, switch between meal categories, view di
 ![homepage](https://res.cloudinary.com/dblomc9cr/image/upload/v1757841759/Screenshot_2025-09-14_145107_wcfak9.png)
 
 #### Selecterd Dishes
-![selected dishes](https://res.cloudinary.com/dblomc9cr/image/upload/v1757841932/Screenshot_2025-09-14_145510_k1kos1.png)
+![Selected dishes](https://res.cloudinary.com/dblomc9cr/image/upload/v1757841932/Screenshot_2025-09-14_145510_k1kos1.png)
 
 #### Dishe Details
 ![Dish Details](https://res.cloudinary.com/dblomc9cr/image/upload/v1757842018/Screenshot_2025-09-14_145636_vw7wp7.png)
@@ -77,4 +77,4 @@ npm run dev
 - tailwindcss – Utility-first styling
 
 ## Live Demo
-[Live Demo]()
+[Live Demo](https://party-menu-app-mounikal.netlify.app/)
